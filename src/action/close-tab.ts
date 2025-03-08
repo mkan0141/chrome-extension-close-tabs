@@ -50,7 +50,7 @@ export const closeTabsFromThisDomain = async () => {
 
   const activeTabDomain = new URL(activeTabUrl).origin;
   const sameDomainTabs = tabs.filter(
-    ({ url }) => url && new URL(url).origin === activeTabDomain
+    ({ url }) => url && new URL(url).origin === activeTabDomain,
   );
 
   closeChromeTabs(sameDomainTabs);
@@ -65,7 +65,7 @@ export const closeTabsFromOtherDomain = async () => {
 
   const activeTabDomain = new URL(activeTabUrl).origin;
   const otherDomainTabs = tabs.filter(
-    ({ url }) => !(url && new URL(url).origin === activeTabDomain)
+    ({ url }) => !(url && new URL(url).origin === activeTabDomain),
   );
 
   closeChromeTabs(otherDomainTabs);
