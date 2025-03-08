@@ -22,5 +22,10 @@
     "rules": {
       "recommended": true
     }
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "none"
+    }
   }
 }
