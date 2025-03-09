@@ -31,13 +31,13 @@ export const ChildContextMenus: ContextMenu[] = [
   },
   {
     id: "closeToLeftTabs",
-    title: "Close tabs to the Left",
+    title: "Close tabs to the left",
     parentId: RootContextMenu.id,
     onClick: closeToLeftTabs,
   },
   {
     id: "closeToRightTabs",
-    title: "Close tabs to the Right",
+    title: "Close tabs to the right",
     parentId: RootContextMenu.id,
     onClick: closeToRightTabs,
   },
