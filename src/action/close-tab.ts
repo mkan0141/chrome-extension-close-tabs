@@ -23,6 +23,15 @@ export const closeTab = async () => {
   closeChromeTabs([activeTab]);
 };
 
+export const closeOtherTabs = async () => {
+  const tabs = await fetchCurrentWindowTabs();
+
+  const activeTabIndex = getActiveTabIndex(tabs);
+  const notActiveTabs = tabs.filter((_, index) => index !== activeTabIndex);
+
+  closeChromeTabs(notActiveTabs);
+};
+
 export const closeToLeftTabs = async () => {
   const tabs = await fetchCurrentWindowTabs();
 

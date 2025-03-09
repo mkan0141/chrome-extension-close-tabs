@@ -1,5 +1,6 @@
 import {
   closeTab,
+  closeOtherTabs,
   closeTabsFromOtherDomain,
   closeTabsFromThisDomain,
   closeToLeftTabs,
@@ -21,6 +22,12 @@ export const ChildContextMenus: ContextMenu[] = [
     title: "Close tab",
     parentId: RootContextMenu.id,
     onClick: closeTab,
+  },
+  {
+    id: "closeOtherTabs",
+    title: "Close other tabs",
+    parentId: RootContextMenu.id,
+    onClick: closeOtherTabs,
   },
   {
     id: "closeToLeftTabs",
