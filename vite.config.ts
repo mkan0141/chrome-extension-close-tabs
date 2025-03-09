@@ -1,19 +1,8 @@
 import { defineConfig } from "vite";
-
 import tsconfigPaths from "vite-tsconfig-paths";
-import { crx, defineManifest } from "@crxjs/vite-plugin";
+import { crx } from "@crxjs/vite-plugin";
 
-const manifest = defineManifest({
-  name: "CloseTabs",
-  description: "Chrome extensions to close tabs",
-  version: "0.0.1",
-  manifest_version: 3,
-  permissions: ["contextMenus", "tabs"],
-  background: {
-    service_worker: "src/service-worker.ts",
-    type: "module",
-  },
-});
+import { manifest } from "./manifest";
 
 export default defineConfig({
   plugins: [tsconfigPaths(), crx({ manifest })],
