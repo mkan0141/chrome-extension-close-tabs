@@ -3,7 +3,7 @@ import { defineManifest } from "@crxjs/vite-plugin";
 export const manifest = defineManifest({
   name: "CloseTabs",
   description: "Chrome extensions to close tabs",
-  version: "0.0.1",
+  version: "1.0.0",
   manifest_version: 3,
   permissions: ["contextMenus", "tabs"],
   icons: {
