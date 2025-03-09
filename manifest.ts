@@ -6,6 +6,7 @@ export const manifest = defineManifest({
   version: "1.0.0",
   manifest_version: 3,
   permissions: ["contextMenus", "tabs"],
+  default_locale: "en",
   icons: {
     "16": "assets/icons/icon16.png",
     "48": "assets/icons/icon48.png",

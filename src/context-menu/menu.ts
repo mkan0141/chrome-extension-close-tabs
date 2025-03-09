@@ -19,37 +19,37 @@ export const RootContextMenu: ContextMenu = {
 export const ChildContextMenus: ContextMenu[] = [
   {
     id: "closeCurrentTab",
-    title: "Close tab",
+    title: chrome.i18n.getMessage("closeCurrentTabTitle"),
     parentId: RootContextMenu.id,
     onClick: closeTab,
   },
   {
     id: "closeOtherTabs",
-    title: "Close other tabs",
+    title: chrome.i18n.getMessage("closeOtherTabsTitle"),
     parentId: RootContextMenu.id,
     onClick: closeOtherTabs,
   },
   {
     id: "closeToLeftTabs",
-    title: "Close tabs to the left",
+    title: chrome.i18n.getMessage("closeToLeftTabsTitle"),
     parentId: RootContextMenu.id,
     onClick: closeToLeftTabs,
   },
   {
     id: "closeToRightTabs",
-    title: "Close tabs to the right",
+    title: chrome.i18n.getMessage("closeToRightTabsTitle"),
     parentId: RootContextMenu.id,
     onClick: closeToRightTabs,
   },
   {
     id: "closeFromThisDomain",
-    title: "Close tabs from this domain",
+    title: chrome.i18n.getMessage("closeFromThisDomainTitle"),
     parentId: RootContextMenu.id,
     onClick: closeTabsFromThisDomain,
   },
   {
     id: "closeFromOtherDomain",
-    title: "Close tabs from other domain",
+    title: chrome.i18n.getMessage("closeFromOtherDomainTitle"),
     parentId: RootContextMenu.id,
     onClick: closeTabsFromOtherDomain,
   },
