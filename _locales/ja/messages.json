@@ -1,0 +1,20 @@
+{
+  "closeCurrentTabTitle": {
+    "message": "閉じる"
+  },
+  "closeOtherTabsTitle": {
+    "message": "他のタブを全て閉じる"
+  },
+  "closeToLeftTabsTitle": {
+    "message": "左側のタブを全て閉じる"
+  },
+  "closeToRightTabsTitle": {
+    "message": "右側のタブを全て閉じる"
+  },
+  "closeFromThisDomainTitle": {
+    "message": "同じドメインのタブを閉じる"
+  },
+  "closeFromOtherDomainTitle": {
+    "message": "異なるドメインのタブを閉じる"
+  }
+}

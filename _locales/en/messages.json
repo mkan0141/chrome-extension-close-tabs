@@ -1,0 +1,20 @@
+{
+  "closeCurrentTabTitle": {
+    "message": "Close tab"
+  },
+  "closeOtherTabsTitle": {
+    "message": "Close other tabs"
+  },
+  "closeToLeftTabsTitle": {
+    "message": "Close tabs to the left"
+  },
+  "closeToRightTabsTitle": {
+    "message": "Close tabs to the right"
+  },
+  "closeFromThisDomainTitle": {
+    "message": "Close tabs from this domain"
+  },
+  "closeFromOtherDomainTitle": {
+    "message": "Close tabs from other domain"
+  }
+}
